@@ -1,4 +1,4 @@
-import { Flex, Heading, Input, Spacer, HStack, SimpleGrid } from '@chakra-ui/react';
+import { Flex, Heading, Input, Spacer, HStack, SimpleGrid, Text } from '@chakra-ui/react';
 import React from "react";
 import useAxios from 'axios-hooks';
 
@@ -24,12 +24,13 @@ const ProjectContainer: React.FC = () => {
             color="white"
             height="100%"
             marginBottom="40px">
-            <Heading as="h1">Project Ideas</Heading>
+            <Heading as="h1">Officium</Heading>
+            <Text>Manage your Job Applications Easier</Text>
         </Flex>
         <HStack>
             <Spacer/>
             <Input 
-                placeholder='Enter a LinkedIn url'
+                placeholder='Enter a LinkedIn Job URL'
                 size='md'
                 variant='filled'
                 width='50%'/>
